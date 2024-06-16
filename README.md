@@ -74,8 +74,17 @@ The Mudang Autonomous Driving system is composed of several key components:
 
 1. **Localization**:
    - **GPS and IMU**: Provide initial positioning and orientation data.
+     ![image](https://github.com/Mudang-Autonomous-Driving/AutonomousDriving/assets/99864704/d3c9f601-db98-4638-b622-c5770ad966ce)
+     ![image](https://github.com/Mudang-Autonomous-Driving/AutonomousDriving/assets/99864704/7e371761-e649-453a-a718-43379772ffa8)
+
+
    - **LiDAR**: Used for precise localization, especially in GPS-denied zones.
+  ![image](https://github.com/Mudang-Autonomous-Driving/AutonomousDriving/assets/99864704/42d206ff-d1fd-43cd-b087-295a74018eba)
+
+   
    - **Sensor Fusion**: Combines data from GPS, IMU, and LiDAR using the Extended Kalman Filter to improve accuracy.
+![image](https://github.com/Mudang-Autonomous-Driving/AutonomousDriving/assets/99864704/d848124c-8735-4acd-8cc0-3de0f9f8e79e)
+
 
 2. **Mapping and Navigation**:
    - **SLAM (Simultaneous Localization and Mapping)**: Creates a detailed 3D map of the environment using the LeGO-LOAM algorithm.
