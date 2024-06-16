@@ -1,4 +1,4 @@
-# Mudang Autonomous Driving Project
+# Mudang Autonomous Driving Project 🐞🚗
 
 Welcome to the Mudang Autonomous Driving Project! This project aims to develop an autonomous shuttle service to enhance the current Mudang shuttle operations at Gachon University, providing a more efficient, cost-effective, and continuous transportation solution for students.
 
