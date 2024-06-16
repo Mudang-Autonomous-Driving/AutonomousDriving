@@ -92,7 +92,8 @@ The Mudang Autonomous Driving system is composed of several key components:
 5. **Vehicle Control**: Send control commands via the CAN network to steer and adjust speed.
 
 ## Demo Video
-[![Video Label](http://img.youtube.com/vi/Qv_Vt0vdYl0?si=ZxbeK15yVu8BA-Ba/0.jpg)](https://youtu.be/Qv_Vt0vdYl0?si=ZxbeK15yVu8BA-Ba)
+[![Video Label](![image](https://github.com/Mudang-Autonomous-Driving/AutonomousDriving/assets/99864704/b2ea68e6-e6a9-4010-83c8-2e378be27f29)
+)](https://youtu.be/Qv_Vt0vdYl0?si=ZxbeK15yVu8BA-Ba)
 NDT localization
 
 
