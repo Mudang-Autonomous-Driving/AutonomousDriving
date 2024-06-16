@@ -19,17 +19,20 @@ Welcome to the Mudang Autonomous Driving Project! This project aims to develop a
 
 **Mudang Autonomous Driving** is an innovative project aimed at developing an autonomous shuttle service to address the operational limitations of the current Mudang shuttle at Gachon University. The project was initiated to provide a more efficient, cost-effective, and continuous transportation solution for students, particularly during times when the conventional shuttle service is unavailable, such as early mornings, late evenings, and vacation periods.
 
+
 ### Team Members
 
 - **Choi Sanghyun** (201935141)
 - **Yoon Sehyeon** (202135553)
-- - **Jeon Jihyun** (202035385)
+  - **Jeon Jihyun** (202035385)
 
 ## Background
 
 Mudang, the current shuttle service, operates with fixed dispatch times and does not run during early mornings, late evenings, or vacation periods due to the high costs associated with hiring drivers. This often leads to inconvenience for students, particularly those whose classes run beyond regular hours or during peak times when the shuttle is in high demand.
 
 The goal of the Mudang Autonomous Driving project is to automate the shuttle service, eliminating the need for human drivers and providing a more flexible and reliable transportation solution.
+![image](https://github.com/Mudang-Autonomous-Driving/AutonomousDriving/assets/99864704/b206f9b1-d769-40c0-ad60-cecad9ffeab7)
+
 
 ## Installation Environment
 
@@ -44,23 +47,24 @@ The goal of the Mudang Autonomous Driving project is to automate the shuttle ser
 
 ### Software Requirements
 
-- **Operating System**: Ubuntu 18.04 or later.
+- **Operating System**: Ubuntu 20.04 or later.
 - **Programming Languages**: Python, C++.
 - **Libraries and Frameworks**:
   - **ROS (Robot Operating System)**: Middleware for robotics applications.
   - **LeGO-LOAM**: Lightweight and Ground-Optimized Lidar Odometry and Mapping.
-  - **Extended Kalman Filter**: For sensor fusion and state estimation.
+  - **Extended Kalman Filter**: For sensor fusion and state estimation.In robot_localization package
   - **Controller Area Network (CAN)**: For vehicle communication and control.
 
 ### Development Tools
 
 - **Git**: Version control system.
-- **Gazebo**: Robotics simulator.
 - **Rviz**: ROS visualization tool.
 
 ## Implementation
 
 ### System Architecture
+![image](https://github.com/Mudang-Autonomous-Driving/AutonomousDriving/assets/99864704/3ba8aaae-20f3-446b-a836-d1bf28f56494)
+
 
 The Mudang Autonomous Driving system is composed of several key components:
 
@@ -87,6 +91,11 @@ The Mudang Autonomous Driving system is composed of several key components:
 4. **Path Planning**: Generate the optimal path based on the map and destination.
 5. **Vehicle Control**: Send control commands via the CAN network to steer and adjust speed.
 
+## Demo Video
+
+[![Video Label]([https://youtu.be/59USvjy2toI](https://youtu.be/Qv_Vt0vdYl0?si=qLL17Umxtjk4BZF0))
+
+
 ## Future Works
 
 Although significant progress has been made, several tasks remain to be completed:
@@ -95,11 +104,3 @@ Although significant progress has been made, several tasks remain to be complete
 - **Real-world Testing**: Conduct extensive testing on a real vehicle within the campus to ensure safety and performance.
 - **User Interface**: Develop a user-friendly interface for scheduling and monitoring the autonomous shuttle service.
 
-## GitHub Repository
-
-All source code, documentation, and further details are available on our GitHub repository:
-
-- **Repository**: [Mudang Autonomous Driving](https://github.com/Mudang-Autonomous-Driving)
-- **Wiki**: [Autonomous Driving Wiki](https://github.com/Mudang-Autonomous-Driving/AutonomousDriving.wiki.git)
-
-Feel free to explore our GitHub repository for more information, and contribute to the development of this exciting project.
