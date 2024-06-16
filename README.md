@@ -65,7 +65,7 @@ The goal of the Mudang Autonomous Driving project is to automate the shuttle ser
 ### System Architecture
 ![image](https://github.com/Mudang-Autonomous-Driving/AutonomousDriving/assets/99864704/3ba8aaae-20f3-446b-a836-d1bf28f56494)
 
-**Pose Estimation Flowchart**
+### Pose Estimation Flowchart
 ![image](https://github.com/Mudang-Autonomous-Driving/AutonomousDriving/assets/99864704/f3e6877e-8e2f-4cb2-9e7f-d26aa3a3541c)
 
 
