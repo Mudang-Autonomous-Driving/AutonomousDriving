@@ -1,0 +1,21 @@
+<?xml version='1.0'?>
+<launch>
+	<arg name="target_frame" default="rear_wheel_link"/>
+	<arg name="frame_id" default="vectornav"/>
+
+	<include file="$(find vectornav)/launch/vectornav.launch">
+		<arg name="frame_id" value="$(arg frame_id)"/>
+	</include>
+
+	<!-- Transforms VN-100 tilted data in imu_link frame to ENU data in base_link frame -->
+	<node pkg="nodelet" type="nodelet" name="imu_manager" args="manager"/>
+
+
+
+	<!-- Filter raw gyro, accel and mag data into a usable orientation -->
+	<node pkg="nodelet" type="nodelet" name="imu_filter" args="load imu_filter_madgwick/ImuFilterNodelet imu_manager">
+		<rosparam command="load" file="$(find vectornav)/params/imu_filter_madgwick.yaml" />
+		<remap from="imu/data_raw" to="vectornav/IMU"/>
+		<remap from="imu/mag" to="vectornav/Mag"/>
+	</node>
+</launch>
