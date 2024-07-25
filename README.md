@@ -24,7 +24,6 @@ Welcome to the Mudang Autonomous Driving Project! This project aims to develop a
 
 - **Choi Sanghyun** (201935141)
 - **Yoon Sehyeon** (202135553)
-- **Jeon Jihyun** (202035385)
 
 ## Background
 
